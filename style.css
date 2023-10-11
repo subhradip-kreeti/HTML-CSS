@@ -1,14 +1,249 @@
+.nav-top{
+  background-color: #7f5a85;
+}
+.logo{
+  width:12vw ;
+}
+.nav-link{
+  color: #7f5a85 !important;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.nav-link:hover{
+  color: #ceb8ac !important;
+}
+.banner{
+  background-image: url('assets/banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85vh;
+  position: relative;
+}
+.banner__outer-circle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.banner__content{
+  color: #7f5a85;
+  border: 2px solid #7f5a85;
+  background-color: #ffff;
+  border-radius: 50%;
+  height: 450px;
+  width: 450px;
+  padding: 10px;
+}
+.banner__content__sub-heading{
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 300;
+}
+.banner__content__main-heading{
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+.banner__content__para{
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  font-weight: 550;
+}
+.cards{
+  margin-bottom: 5rem;
+}
+.cards__main-heading1{
+  color: #7f5a85;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 300;
+}
+.cards__main-heading2{
+  color: #7f5a85;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 800;
+}
+.cards__img{
+  border-radius: 50%;
+  width: 80%;
+}
+.cards__sub-heading{
+  color: #7f5a85;
+  text-align:left;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.cards__sub-para{
+  color: #7f5a85;
+  text-align:left;
+  font-size: 1.5rem;
+  font-weight: 280;
+  border-bottom: 2px solid #7f5a85;
+  padding-bottom: 1rem;
+  width: fit-content;
+}
+.cards__time{
+  color: #7f5a85;
+  text-align:left;
+  font-size: 1.5rem;
+  font-weight: 280;
+}
+.cards__day{
+  font-weight: 800;
+}
+.cards__btn{
+  background-color: #7f5a85;
+  color: #ffff;
+  padding: 15px 50px 15px 50px;
+  width: fit-content;
+  position: absolute;
+  left: 50%;
+  margin-top: 2rem;
+  transform: translateX(-50%);
+  border-radius: 25px;
+  font-weight: 800;
+  font-size: 1.2rem;
+  text-wrap: nowrap;
+}
+.cards__btn:hover{
+  background-color: #ffff;
+  border: 2px solid #7f5a85;
+  color: #7f5a85;
+}
+.practice__img{
+  border-radius: 50%;
+  padding: 15px;
+  border: 2px solid #3333;
+  height: 500px;
+  width: 500px;
+}
+.box2,.box1{
+  border-radius: 50%;
+  padding: 15px;
+  border: 2px solid #3333;
+  width: fit-content;
+}
+.practice__heading{
+  color: #7f5a85;
+  font-size: 3rem;
+  font-weight: 300;
+}
+.practice__heading__span{
+  font-weight: 800;
+}
+.practice__heading2{
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  color: #7f5a85;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.practice__heading2__span{
+  font-weight: 800;
+}
+.practice__para{
+  color: #7f5a85;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+.healthy-life__heading{
+  color: #7f5a85;
+  font-size: 2.5rem;
+  text-align: center;
+  position: relative;
+}
+.healthy-life__heading:before{
+  content:" ";
+  height: 2px;
+  width: 30rem;
+  background:  #7f5a85;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 60%;
+}
+
+.healthy-life__heading:after{
+  content:" ";
+  height: 2px;
+  width: 30rem;
+  background:  #7f5a85;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+}
+.healthy-life__sub-haeding{
+  color: #7f5a85;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 300;
+  margin-top: -1.5rem;
+}
 /* Styles for mobile devices */
 @media (max-width: 767px) {
-
+  html{
+    font-size: 10px;
+  }
+  .logo{
+    width:30vw ;
+  }
+  .banner__content{
+    height: 300px;
+    width: 300px;
+  }
+  .cards{
+    text-align: center;
+  }
+  .cards__sub-heading{
+    text-align: center;
+  }
+  .text-mobile{
+    color: #7f5a85;
+  }
+  .practice__heading{
+    text-align: center;
+  }
+  .practice__para{
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .practice__heading{
+    text-align: center;
+  }
+  .practice__heading2{
+    text-align: center;
+  }
+  .healthy-life__heading:before{
+    width: 5rem;
+    top: 50%;
+    right: 70%;
+  }
+  .healthy-life__heading:after{
+    width: 5rem;
+    top: 50%;
+    left: 70%;
+  }
 }
 /* Styles for tablet devices */
 @media (min-width: 768px) and (max-width: 991px) {
-
+  html{
+    font-size: 12px;
+  }
+  .banner__content{
+    height: 350px;
+    width: 350px;
+  }
+  .healthy-life__heading:before{
+    width: 15rem;
+  }
+  .healthy-life__heading:after{
+    width: 15rem;
+  }
 }
 /* Styles for desktop devices */
 @media (min-width: 992px) {
-
 }
 
 /* utility class */
