@@ -243,6 +243,10 @@
     top: 50%;
     left: 70%;
   }
+  .workshop__button{
+    left:50%;
+    transform: translateX(-50%);
+  }
 }
 /* Styles for tablet devices */
 @media (min-width: 768px) and (max-width: 991px) {
