@@ -211,6 +211,17 @@
 .workshop__button{
   left:15%;
 }
+.about{
+  background-color: #dabddf;
+}
+.about__img{
+  width: 100px;
+}
+.about__text{
+  align-self: center;
+  font-size: 1.5rem;
+  color: #7f5a85;
+}
 /* Styles for mobile devices */
 @media (max-width: 767px) {
   html{
