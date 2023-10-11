@@ -193,26 +193,14 @@
     height: 300px;
     width: 300px;
   }
-  .cards{
-    text-align: center;
-  }
-  .cards__sub-heading{
-    text-align: center;
-  }
   .text-mobile{
     color: #7f5a85;
-  }
-  .practice__heading{
-    text-align: center;
   }
   .practice__para{
     margin-top: 2rem;
     text-align: center;
   }
-  .practice__heading{
-    text-align: center;
-  }
-  .practice__heading2{
+  .practice__heading,.practice__heading2,.practice__heading,.cards__sub-heading,.cards{
     text-align: center;
   }
   .healthy-life__heading:before{
