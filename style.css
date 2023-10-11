@@ -181,6 +181,23 @@
   font-weight: 300;
   margin-top: -1.5rem;
 }
+.healthy-life__img{
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  padding: 10px;
+  background-color: azure;
+}
+.healthy-life__inner-heading{
+  color: #7f5a85;
+  font-size: 1.5rem;
+  margin: 1.5rem 0 1.5rem 0;
+}
+.healthy-life__para{
+  color: #7f5a85;
+  font-size: 1.3rem;
+  line-break: 1.2rem;
+}
 /* Styles for mobile devices */
 @media (max-width: 767px) {
   html{
