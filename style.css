@@ -242,7 +242,7 @@
     margin-top: 2rem;
     text-align: center;
   }
-  .practice__heading,.practice__heading2,.practice__heading,.cards__sub-heading,.cards{
+  .practice__heading,.practice__heading2,.practice__heading,.cards__sub-heading,.cards,.cards__time{
     text-align: center;
   }
   .healthy-life__heading:before{
@@ -288,3 +288,9 @@
   }
 }
 
+@media (min-width: 270px) and (max-width: 310px) {
+  .banner__content{
+    height: 250px;
+    width: 250px;
+  }
+}
