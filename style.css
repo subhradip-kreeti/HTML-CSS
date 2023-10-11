@@ -1,0 +1,15 @@
+/* Styles for mobile devices */
+@media (max-width: 767px) {
+
+}
+/* Styles for tablet devices */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+/* Styles for desktop devices */
+@media (min-width: 992px) {
+
+}
+
+/* utility class */
+
