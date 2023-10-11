@@ -221,6 +221,7 @@
   align-self: center;
   font-size: 1.5rem;
   color: #7f5a85;
+  font-weight: 600;
 }
 /* Styles for mobile devices */
 @media (max-width: 767px) {
@@ -276,8 +277,14 @@
   }
 }
 /* Styles for desktop devices */
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
 }
-
-/* utility class */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .healthy-life__heading:before{
+    width: 15rem;
+  }
+  .healthy-life__heading:after{
+    width: 15rem;
+  }
+}
 
